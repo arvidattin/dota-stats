@@ -1,0 +1,14 @@
+{
+    "name": "dotastats",
+    "private": true,
+    "scripts": {
+      "dev": "concurrently \"cd server && node index.js\" \"cd client && npm run dev\"",
+      "build": "cd client && npm run build",
+      "lint": "cd client && npm run lint",
+      "preview": "cd client && npm run preview"
+    },
+    "devDependencies": {
+      "concurrently": "^9.2.0"
+    }
+  }
+  
