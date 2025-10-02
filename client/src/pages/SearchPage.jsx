@@ -12,7 +12,7 @@ export default function SearchPage() {
   };
 
   return (
-    <div style={{ padding: '16px' }}>
+    <div className= "bg-gray-950" style={{ padding: '16px' }}>
       <h1>Search</h1>
       <form onSubmit={handleSubmit}>
         <input
